@@ -40,6 +40,8 @@ svn co https://github.com/hubutui/p7zip-lede/trunk package/p7zip
 # rm -rf feeds/packages/utils/{containerd,libnetwork,runc,tini}
 # svn co https://github.com/Lienol/openwrt-packages/trunk/utils/{containerd,libnetwork,runc,tini} feeds/packages/utils
 
+git clone https://github.com/kiddin9/openwrt-packages.git package/kidd-packages
+
 # Add third-party software packages (The entire repository)
 # git clone https://github.com/libremesh/lime-packages.git package/lime-packages
 # Add third-party software packages (Specify the package)
